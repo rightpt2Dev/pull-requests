@@ -5,5 +5,6 @@ import numpy as np
 
 # a fake quick formula for fun
 def add_stuff(*args):
-    return np.sum(args)
+    print(args)
+    return args
 
